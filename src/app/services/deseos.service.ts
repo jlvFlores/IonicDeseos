@@ -10,7 +10,12 @@ export class DeseosService {
 
 
   constructor() {
-    console.log('iniciado');
+
+    const lista1 = new Lista('Recolectar piedras');
+    const lista2 = new Lista('cosas');
+
+    this.listas.push(lista1, lista2);
+
   }
 
 
